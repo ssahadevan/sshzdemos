@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0f78a6f-6ffa-4bf6-9816-a1e634b202d8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1drbubJdkW3gyzYtkn8IVZNJDmk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Shell Script.run.sh">
+    <configuration name="CPMember" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ss.CPMember" />
+      <module name="sshzdemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ss.Client" />
+      <module name="sshzdemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sshzdemos [mvn,clean]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="11" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="build.sh" type="ShConfigurationType">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/build.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/run.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.CPMember" />
+      <item itemvalue="Maven.sshzdemos [mvn,clean]" />
+      <item itemvalue="Shell Script.build.sh" />
+      <item itemvalue="Shell Script.run.sh" />
+      <item itemvalue="Application.Client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.run.sh" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0f78a6f-6ffa-4bf6-9816-a1e634b202d8" name="Default Changelist" comment="" />
+      <created>1593186382122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593186382122</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="178" key="#Project_Structure" timestamp="1593207795408">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="440" y="178" key="#Project_Structure/0.23.1680.979@0.23.1680.979" timestamp="1593207795408" />
+    <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593194282567">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.978@0.23.1680.978" timestamp="1593194282567" />
+    <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.979@0.23.1680.979" timestamp="1593186821026" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom" timestamp="1593208378161">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1593194239697" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1593208378161" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1593194557255" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center" timestamp="1593208378160">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1593194239696" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1593208378160" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1593194557254" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left" timestamp="1593208378160">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1593194239695" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1593208378160" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1593194557253" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right" timestamp="1593208378161">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1593194239696" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1593208378161" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1593194557254" />
+    <state x="505" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1593192389162">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="505" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1680.978@0.23.1680.978" timestamp="1593192389162" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sshzdemos$CPMember.ic" NAME="CPMember Coverage Results" MODIFIED="1593194537634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ss.*</FILTER>
+    </SUITE>
+  </component>
+</project>
