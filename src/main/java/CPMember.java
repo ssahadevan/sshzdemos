@@ -1,13 +1,22 @@
 package com.ss ;
 
 import com.hazelcast.config.Config;
+import com.hazelcast.core.DistributedObjectListener;
 import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
+import com.hazelcast.cp.CPGroup;
+import com.hazelcast.cp.CPGroupId;
+import com.hazelcast.cp.CPSubsystemManagementService;
 import com.hazelcast.cp.lock.FencedLock;
+import com.hazelcast.cp.session.CPSession;
+import com.hazelcast.cp.session.CPSessionManagementService;
 
 import java.util.Collection;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.Random;
+import java.util.concurrent.CompletionStage;
+import java.util.concurrent.ExecutionException;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
@@ -23,12 +32,18 @@ public class CPMember {
 
     private static final int CP_MEMBER_COUNT = 3;
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException , java.util.concurrent.ExecutionException {
         Config config = new Config();
         config.getCPSubsystemConfig().setCPMemberCount(CP_MEMBER_COUNT);
+        config.setProperty("hazelcast.jmx", "true");
         config.getManagementCenterConfig().setScriptingEnabled(true);
 
         HazelcastInstance hz = Hazelcast.newHazelcastInstance(config);
+
+        com.ss.ExampleDOL example = new com.ss.ExampleDOL();
+        hz.addDistributedObjectListener((DistributedObjectListener) example);
+
+
         FencedLock lock = hz.getCPSubsystem().getLock("lock");
 
         long fence1 = lock.lockAndGetFence();
@@ -41,10 +56,34 @@ public class CPMember {
 
         System.out.println("I acquired the lock reentrantly with fence: " + fence2);
 
-        Collection distributedObjects=hz.getDistributedObjects();
+        /* Get all groups */
+        CPSubsystemManagementService managementService = hz.getCPSubsystem()
+                .getCPSubsystemManagementService();
+        CompletionStage<Collection<CPGroupId>> future = managementService.getCPGroupIds();
+        Collection<CPGroupId> groups = future.toCompletableFuture().get();
+        System.out.println("Note: Groups are " + groups);
 
-        distributedObjects.forEach(
-                distributedObject->System.out.println(distributedObject));
+        /* Get all sessions */
+        Iterator iter = groups.iterator();
+        groups.forEach( group -> {
+            CPSessionManagementService sessionManagementService = hz.getCPSubsystem()
+                    .getCPSessionManagementService();
+            CompletionStage<Collection<CPSession>> futureSessions = sessionManagementService
+                    .getAllSessions(String.valueOf(group));
+            Collection<CPSession> sessions = null;
+            try {
+                sessions = futureSessions.toCompletableFuture().get();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+            System.out.println(" Sessions are :" + sessions);
+                }
+
+        );
+
+
 
         Thread.sleep(SECONDS.toMillis(2));
 

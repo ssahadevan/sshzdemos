@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0f78a6f-6ffa-4bf6-9816-a1e634b202d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExampleDOL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CPMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CPMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,8 +61,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ss.Client" />
+    <configuration name="ExampleDOL (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ss.ExampleDOL" />
+      <module name="sshzdemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleDOL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExampleDOL" />
+      <module name="sshzdemos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForceReleaseFencedByClosingSession" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ss.ForceReleaseFencedByClosingSession" />
+      <module name="sshzdemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsMemberSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ss.IsMemberSafe" />
       <module name="sshzdemos" />
       <extension name="coverage">
         <pattern>
@@ -126,15 +166,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.CPMember" />
+      <item itemvalue="Application.ForceReleaseFencedByClosingSession" />
+      <item itemvalue="Application.IsMemberSafe" />
       <item itemvalue="Maven.sshzdemos [mvn,clean]" />
       <item itemvalue="Shell Script.build.sh" />
       <item itemvalue="Shell Script.run.sh" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.ExampleDOL" />
+      <item itemvalue="Application.ExampleDOL (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Shell Script.run.sh" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.IsMemberSafe" />
+        <item itemvalue="Application.ExampleDOL (1)" />
+        <item itemvalue="Application.ExampleDOL" />
+        <item itemvalue="Application.ForceReleaseFencedByClosingSession" />
       </list>
     </recent_temporary>
   </component>
@@ -152,43 +198,68 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="178" key="#Project_Structure" timestamp="1593207795408">
-      <screen x="0" y="23" width="1680" height="979" />
+    <state x="440" y="178" key="#Project_Structure" timestamp="1593450829434">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
+    <state x="440" y="178" key="#Project_Structure/0.23.1680.977@0.23.1680.977" timestamp="1593450829434" />
     <state x="440" y="178" key="#Project_Structure/0.23.1680.979@0.23.1680.979" timestamp="1593207795408" />
-    <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593194282567">
-      <screen x="0" y="23" width="1680" height="978" />
+    <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593456619011">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
+    <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.977@0.23.1680.977" timestamp="1593456619011" />
     <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.978@0.23.1680.978" timestamp="1593194282567" />
     <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.979@0.23.1680.979" timestamp="1593186821026" />
-    <state width="1358" height="251" key="GridCell.Tab.0.bottom" timestamp="1593208378161">
-      <screen x="0" y="23" width="1680" height="979" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom" timestamp="1593531785763">
+      <screen x="0" y="23" width="1680" height="978" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1593194239697" />
-    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1593208378161" />
-    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1593194557255" />
-    <state width="1358" height="251" key="GridCell.Tab.0.center" timestamp="1593208378160">
-      <screen x="0" y="23" width="1680" height="979" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1593481349998" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1593531785763" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1593442025231" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1593439438635" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1593447776447" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center" timestamp="1593531785763">
+      <screen x="0" y="23" width="1680" height="978" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1593194239696" />
-    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1593208378160" />
-    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1593194557254" />
-    <state width="1358" height="251" key="GridCell.Tab.0.left" timestamp="1593208378160">
-      <screen x="0" y="23" width="1680" height="979" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1593481349997" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1593531785763" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1593442025230" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1593439438634" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1593447776446" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left" timestamp="1593531785763">
+      <screen x="0" y="23" width="1680" height="978" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1593194239695" />
-    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1593208378160" />
-    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1593194557253" />
-    <state width="1358" height="251" key="GridCell.Tab.0.right" timestamp="1593208378161">
-      <screen x="0" y="23" width="1680" height="979" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1593481349997" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1593531785763" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1593442025229" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1593439438633" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1593447776446" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right" timestamp="1593531785763">
+      <screen x="0" y="23" width="1680" height="978" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1593194239696" />
-    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1593208378161" />
-    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1593194557254" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1593481349998" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1593531785763" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1593442025230" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1593439438634" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1593447776446" />
+    <state x="517" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1593526557307">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state x="517" y="345" key="com.intellij.ide.util.TipDialog/0.23.1680.977@0.23.1680.977" timestamp="1593526557307" />
     <state x="505" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1593192389162">
       <screen x="0" y="23" width="1680" height="978" />
     </state>
     <state x="505" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1680.978@0.23.1680.978" timestamp="1593192389162" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PessimisticUpdateMember.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sshzdemos$CPMember.ic" NAME="CPMember Coverage Results" MODIFIED="1593194537634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
