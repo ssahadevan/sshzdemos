@@ -1,6 +1,7 @@
 package com.ss ;
 
 import com.hazelcast.config.Config;
+import com.hazelcast.config.cp.CPSubsystemConfig;
 import com.hazelcast.core.DistributedObjectListener;
 import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
@@ -10,6 +11,7 @@ import com.hazelcast.cp.CPSubsystemManagementService;
 import com.hazelcast.cp.lock.FencedLock;
 import com.hazelcast.cp.session.CPSession;
 import com.hazelcast.cp.session.CPSessionManagementService;
+import com.hazelcast.map.IMap;
 
 import java.util.Collection;
 import java.util.Date;
@@ -34,9 +36,13 @@ public class CPMember {
 
     public static void main(String[] args) throws InterruptedException , java.util.concurrent.ExecutionException {
         Config config = new Config();
-        config.getCPSubsystemConfig().setCPMemberCount(CP_MEMBER_COUNT);
+        config.getCPSubsystemConfig()
+                .setCPMemberCount(CP_MEMBER_COUNT)
+                .setPersistenceEnabled(false)
+        ;
         config.setProperty("hazelcast.jmx", "true");
         config.getManagementCenterConfig().setScriptingEnabled(true);
+        config.setLicenseKey("ENT#3Nodes#2Y8UKAE0DPJy9mNd5gBCnXqwjuOGM61SQWliHTZbkf16910000000011001011001200110910000193101700");
 
         HazelcastInstance hz = Hazelcast.newHazelcastInstance(config);
 
@@ -47,6 +53,10 @@ public class CPMember {
         FencedLock lock = hz.getCPSubsystem().getLock("lock");
 
         long fence1 = lock.lockAndGetFence();
+        final IMap<String, Object> map = hz.getMap("ssmap");
+
+
+        map.put("1", "Sharath");
 
         System.out.println("I acquired the lock for the first time at " + new Date() + " with fence: " + fence1);
 
