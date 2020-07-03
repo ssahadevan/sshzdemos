@@ -23,3 +23,10 @@
 hs_err_pid*
 target/maven-archiver/pom.properties
 .idea/workspace.xml
+restApiTest.sh
+target/maven-archiver/pom.properties
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+.idea/codeStyles/codeStyleConfig.xml
+.idea/jarRepositories.xml
+.idea/workspace.xml

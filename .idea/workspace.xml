@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0f78a6f-6ffa-4bf6-9816-a1e634b202d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restApiTest.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SampleApp/DataObjects/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SampleApp/HzMember.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CPMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CPMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,18 +31,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1drbubJdkW3gyzYtkn8IVZNJDmk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -59,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleDOL (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ss.ExampleDOL" />
+    <configuration name="DemoRestController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SampleApp.DemoRestController" />
       <module name="sshzdemos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ss.*" />
+          <option name="PATTERN" value="SampleApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,19 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleDOL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExampleDOL" />
-      <module name="sshzdemos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForceReleaseFencedByClosingSession" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ss.ForceReleaseFencedByClosingSession" />
+    <configuration name="HzMember" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SampleApp.HzMember" />
       <module name="sshzdemos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ss.*" />
+          <option name="PATTERN" value="SampleApp.DataObjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,38 +142,55 @@
       <method v="2" />
     </configuration>
     <configuration name="build.sh" type="ShConfigurationType">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/build.sh" />
       <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
       <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="restApiTest.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/restApiTest.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="/bin/zsh" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
     <configuration name="run.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/run.sh" />
       <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
       <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="/bin/zsh" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.CPMember" />
-      <item itemvalue="Application.ForceReleaseFencedByClosingSession" />
       <item itemvalue="Application.IsMemberSafe" />
-      <item itemvalue="Application.ExampleDOL" />
-      <item itemvalue="Application.ExampleDOL (1)" />
+      <item itemvalue="Application.HzMember" />
+      <item itemvalue="Application.DemoRestController" />
       <item itemvalue="Maven.sshzdemos [mvn,clean]" />
       <item itemvalue="Shell Script.build.sh" />
       <item itemvalue="Shell Script.run.sh" />
+      <item itemvalue="Shell Script.restApiTest.sh" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.IsMemberSafe" />
+        <item itemvalue="Application.HzMember" />
+        <item itemvalue="Application.DemoRestController" />
+        <item itemvalue="Shell Script.restApiTest.sh" />
         <item itemvalue="Shell Script.run.sh" />
-        <item itemvalue="Application.ExampleDOL (1)" />
-        <item itemvalue="Application.ExampleDOL" />
-        <item itemvalue="Application.ForceReleaseFencedByClosingSession" />
       </list>
     </recent_temporary>
   </component>
@@ -207,38 +219,46 @@
     <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.977@0.23.1680.977" timestamp="1593456619011" />
     <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.978@0.23.1680.978" timestamp="1593194282567" />
     <state x="304" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.979@0.23.1680.979" timestamp="1593186821026" />
-    <state width="1358" height="251" key="GridCell.Tab.0.bottom" timestamp="1593640851081">
-      <screen x="0" y="23" width="1680" height="978" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom" timestamp="1593812698459">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1593481349998" />
-    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1593640851081" />
-    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1593541855655" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1593812698459" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1593731454032" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1593732726746" />
     <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1593439438635" />
     <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1593447776447" />
-    <state width="1358" height="251" key="GridCell.Tab.0.center" timestamp="1593640851080">
-      <screen x="0" y="23" width="1680" height="978" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center" timestamp="1593812698458">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1593481349997" />
-    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1593640851080" />
-    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1593541855654" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1593812698458" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1593731454031" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1593732726745" />
     <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1593439438634" />
     <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1593447776446" />
-    <state width="1358" height="251" key="GridCell.Tab.0.left" timestamp="1593640851080">
-      <screen x="0" y="23" width="1680" height="978" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left" timestamp="1593812698458">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1593481349997" />
-    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1593640851080" />
-    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1593541855653" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1593812698458" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1593731454030" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1593732726745" />
     <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1593439438633" />
     <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1593447776446" />
-    <state width="1358" height="251" key="GridCell.Tab.0.right" timestamp="1593640851081">
-      <screen x="0" y="23" width="1680" height="978" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right" timestamp="1593812698459">
+      <screen x="0" y="23" width="1680" height="977" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1593481349998" />
-    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1593640851081" />
-    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1593541855654" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1593812698459" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1593731454031" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1593732726745" />
     <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1593439438634" />
     <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1593447776446" />
+    <state x="378" y="174" key="Maven.ArtifactSearchDialog" timestamp="1593731184624">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="378" y="174" key="Maven.ArtifactSearchDialog/0.23.1680.978@0.23.1680.978" timestamp="1593731184624" />
+    <state x="455" y="219" key="NewModule_or_Project.wizard" timestamp="1593794411769">
+      <screen x="0" y="23" width="1680" height="978" />
+    </state>
+    <state x="455" y="219" key="NewModule_or_Project.wizard/0.23.1680.978@0.23.1680.978" timestamp="1593794411769" />
     <state width="605" height="445" key="SwitcherDM" timestamp="1593543688427">
       <screen x="0" y="23" width="1680" height="978" />
     </state>
