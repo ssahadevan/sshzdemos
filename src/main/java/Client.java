@@ -10,9 +10,11 @@ public class Client {
 
     public static void main(String[] args) throws Exception {
         ClientConfig clientConfig = new ClientConfig();
-        clientConfig.getNetworkConfig().addAddress("127.0.0.1");
+        // clientConfig.getNetworkConfig().addAddress("127.0.0.1");
         // Connect to Azure AKS temp
         // clientConfig.getNetworkConfig().addAddress("52.154.205.44:5701");
+        // GCP
+        clientConfig.getNetworkConfig().addAddress("34.121.237.40:5701");
         clientConfig.getNetworkConfig().setSmartRouting(false);
         HazelcastInstance client = HazelcastClient.newHazelcastClient(clientConfig);
         System.out.println(clientConfig.toString());

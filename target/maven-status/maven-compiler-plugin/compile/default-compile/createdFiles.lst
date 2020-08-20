@@ -1,8 +1,11 @@
+MapStoreSample/LoadAll$SimpleStore.class
 SampleApp/DataObjects/Transaction.class
 PessimisticUpdateMember$Value.class
 com/hazelcast/demo/SimpleMapTest$3.class
+MapStoreSample/LoadAll.class
 com/ss/Client.class
 com/hazelcast/demo/SimpleMapTest$2.class
+MapStoreSample/LoadAll$1.class
 com/hazelcast/demo/SimpleMapTest$Stats.class
 com/hazelcast/demo/SimpleMapTest$1.class
 com/ss/ExampleDOL.class
