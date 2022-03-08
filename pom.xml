@@ -6,7 +6,7 @@
     <properties>
 
 
-        <hazelcast.version>4.0.1</hazelcast.version>
+        <hazelcast.version>5.1</hazelcast.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <!-- Not Needed
